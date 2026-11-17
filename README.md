@@ -1,36 +1,79 @@
-# Kingdavid | Security Researcher
+# Kingdavid | Blockchain Security Researcher
 
-**Independent Security Researcher | Web3 Security | Web2/API Security | Go**
+**Independent Security Researcher | Smart Contract Security | Protocol Security | Blockchain Infrastructure**
 
-I investigate vulnerabilities across smart contracts, backend systems, and API infrastructures, focusing on root-cause analysis, attack-path discovery, and practical impact validation.
+I am a blockchain security researcher focused on discovering vulnerabilities across smart contracts, DeFi protocols, and blockchain infrastructure.
 
-## Areas of Research
+My research spans multiple ecosystems, including Solidity/EVM, Cairo/Starknet, Clarity/Stacks, Rust/Soroban, and Go.
 
-- **Web3 Security:** Solidity, EVM, smart-contract vulnerabilities, protocol accounting, and invariant analysis.
-- **Web2 & API Security:** Authentication, authorization, business logic, payment enforcement, and backend vulnerabilities.
-- **Go Security:** Backend application security, code analysis, and vulnerability research.
-- **Security Research:** Threat modelling, attack-surface mapping, exploit validation, and responsible disclosure.
+## Experience
 
-## Research Methodology
+My experience includes competitive security audits, private engagements, and independent vulnerability research across platforms such as Sherlock, Code4rena, Cantina, Immunefi, HackenProof, and Remedy, alongside invited triage work with Pashov Audit Group.
 
-My approach to security research involves:
+My approach goes beyond conventional vulnerability pattern matching and automated scanning. I focus on understanding protocol architecture, identifying underlying security assumptions and mathematical invariants, and investigating how those assumptions can be violated under adversarial conditions.
 
-1. Mapping system architecture and trust boundaries.
-2. Identifying security assumptions and potential attack surfaces.
-3. Tracing execution paths and investigating root causes.
-4. Developing reproducible proof-of-concepts.
-5. Validating practical impact and challenging initial findings.
+My methodology combines manual code review, invariant-driven analysis, mathematical reasoning, fuzz testing, and AI-assisted research, supported by practical proof-of-concept development and vulnerability validation.
 
-## Research Portfolio
+## Technical Expertise
 
-This repository serves as a central index of my security research, technical investigations, and reproducible demonstrations.
+- **EVM / Solidity:** AMM and hook mechanics, Uniswap v4 hooks, concentrated liquidity, StableSwap invariants, ERC-4626 vault accounting, Aave V3-style lending and liquidation mechanisms, and optimistic governance timelock and veto logic.
+- **Cairo / Starknet:** Lending and staking protocols, mathematical formula correctness, reward-index calculations, and accounting vulnerabilities.
+- **Clarity / Stacks:** DeFi collateral management, lending mechanisms, and liquidation logic.
+- **Rust / Soroban:** Smart contract security reviews, including a full 16-file protocol audit.
+- **Go / Blockchain Infrastructure:** Consensus-layer security research, including Polygon Heimdall v2.
+- **Web2 / API Security:** Backend security, authorization boundaries, payment enforcement, and business logic vulnerabilities.
 
-Research projects and technical writeups will be added as they are documented and cleared for public disclosure.
+## Notable Achievements & Recognition
+
+- Ranked **7th** in a public Cantina security competition.
+- Ranked **29th** in the Sherlock Metric security competition.
+- Discovered a High-severity vulnerability validated by HackenProof on my first submission to the platform.
+- Recognized in the **Bron Security Team Hall of Fame** through a private security engagement.
+- Participated in an invited, private security engagement involving Polygon, gaining prior experience with the Sherlock Audit Engine.
+
+## Protocols & Systems Researched
+
+I have worked across a range of protocol architectures, including:
+
+- Decentralized exchanges (DEXs) and automated market makers (AMMs).
+- Lending and borrowing protocols.
+- Perpetual trading systems.
+- Staking mechanisms and reward distribution systems.
+- ERC-4626 vaults and asset-management systems.
+- Blockchain consensus and infrastructure components.
+
+## Research Focus
+
+My primary research interests include:
+
+- Cross-contract vulnerabilities.
+- Broken mathematical invariants.
+- Incorrect asset accounting.
+- Authorization and access-control failures.
+- Liquidation exploits.
+- Reward distribution errors.
+- Economic attack vectors arising from complex protocol interactions.
+
+I place particular emphasis on understanding vulnerability root causes and practical impact, validating findings through reproducible proof-of-concepts, and assessing severity based on realistic attack conditions and potential protocol impact.
+
+## Research Philosophy
+
+I aim to uncover vulnerabilities that automated scanners and isolated function-level reviews may overlook.
+
+Rather than focusing exclusively on known vulnerability patterns, I investigate the assumptions that protocols depend on, the mathematical properties that must remain true, and the interactions that could cause those properties to fail.
+
+My goal is to help protocols identify and address security weaknesses before they can be exploited.
 
 ## Technologies & Tools
 
-`Solidity` `Foundry` `Go` `EVM` `Git` `Linux` `API Security`
+`Solidity` `Foundry` `Cairo` `Starknet` `Clarity` `Stacks` `Rust` `Soroban` `Go` `EVM` `Linux` `Git`
+
+## Research Portfolio
+
+This GitHub profile serves as a collection of my security research, technical investigations, proof-of-concepts, and research methodologies.
+
+Additional projects and writeups will be published as they are documented and cleared for public disclosure.
 
 ## Responsible Disclosure
 
-I respect responsible disclosure practices. Private reports, undisclosed vulnerabilities, and confidential program information are not published without appropriate authorization.
+I respect responsible disclosure practices. Private reports, undisclosed vulnerabilities, and confidential program information are never published without appropriate authorization.
